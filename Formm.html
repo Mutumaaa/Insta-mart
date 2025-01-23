@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formm</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+
+        #mains{
+            display: flex;
+           margin-left: 50px;
+            margin-bottom: 30px;
+            margin-right: 50px;
+            margin-top: 40px;
+            height: 500px;
+        }
+        #one{
+            background-color: #20b4b4;
+            width: 50%;
+            p{
+                text-align: center;
+                color: white;
+            }
+        }
+        #two{
+            padding-left: 20px;
+            width: 50%;
+            background-color: white;
+            legend{
+                font-weight: bold;
+                font-size: 40px;
+                text-align: center;
+            }
+        }
+        h1{
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+        }
+        #text{
+            padding-top: 50px;
+        }
+button{
+    background-color: #20b4b4;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+input{
+    width: 400px;
+    background-color: lightgray;
+}
+textarea{
+    width: 400px;
+    background-color: lightgray;
+}
+    </style>
+</head>
+<body>
+<div id="mains">
+    <div id="one">
+        <div id="text">
+            <h1>Let's Chat</h1>
+        <p>
+            Whether you have a question, want to <br> start a project or simply want to connect <br><br>
+            <br>
+            Feel free to send me a message in the <br> contact form
+        </p>
+        </div>
+    </div>
+    <div id="two">
+        <form action="">
+            <legend>Contact</legend>
+            <br>
+            <p style="font-size: 12px">*Required</p>
+            <input type="text" placeholder="Name*" required="required">
+            <br><br>
+            <input type="email" placeholder="Email*" required="required">
+            <br><br>
+            <input type="text" placeholder="Company">
+            <br><br>
+            <input type="tel" placeholder="Phone">
+            <br><br>
+
+            <textarea name="Message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+
+
+
+
+
+
+        </form>
+         <button type="submit"> submit</button>
+
+    </div>
+</div>
+
+</body>
+</html>
